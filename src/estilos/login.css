@@ -1,0 +1,31 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    background-color: #aaa;
+    padding: 60px;
+}
+
+.container-login div input{
+    padding: .5rem;
+    margin: .5rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: 2px solid #000;
+}
+
+.container-login div button{
+    padding: .5rem;
+    cursor: pointer;
+    border: none;
+}
+.container-login div button:hover{
+    background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .container-login div input{
+        width: 100%;
+    }
+  }

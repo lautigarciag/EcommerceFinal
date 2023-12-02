@@ -1,0 +1,25 @@
+.container-producto{
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.container-producto img{
+    height: 250px;
+}
+.container-producto h2,p{
+    margin: 6px;
+}
+
+.container-producto button{
+    padding: .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.container-producto button:hover{
+    background-color: #ccc;
+}
